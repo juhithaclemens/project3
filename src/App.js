@@ -1,12 +1,7 @@
-import './App.css';
+import RediscoverPage from "./pages/RediscoverPage/RediscoverPage";
 
 function App() {
-  return (
-    <div className="App">
-      <h1>Rediscover Tracks</h1>
-      <button>Connect Spotify</button>
-    </div>
-  );
+  return <RediscoverPage />;
 }
 
 export default App;
