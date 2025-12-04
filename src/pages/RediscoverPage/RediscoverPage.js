@@ -45,7 +45,8 @@ export default function RediscoverPage() {
       <div className="footer">
         Songs from <br /> @username_here
       </div>
-
+	
+      <button className="logout-btn" onClick={() => window.location.href = "http://localhost:3001/auth/spotify/login"}>Login to Spotify</button>
       <button className="logout-btn">Disconnect / Logout</button>
     </div>
   );
