@@ -46,7 +46,7 @@ export default function RediscoverPage() {
         Songs from <br /> @username_here
       </div>
 	
-      <button className="logout-btn" onClick={() => window.location.href = "http://localhost:3001/auth/spotify/login"}>Login to Spotify</button>
+      <button className="logout-btn" onClick={() => window.location.href = "https://corrine-dowerless-farah.ngrok-free.dev/auth/spotify/login"}>Login to Spotify</button>
       <button className="logout-btn">Disconnect / Logout</button>
     </div>
   );
